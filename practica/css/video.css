@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.nav-brand {
+    width: 50px;
+}
+.contenedor-texto{
+    background: yellow;
+}
+.contenedor-texto a{
+    text-decoration: none;
+    padding-left: 35px;
+    color: white;
+}
+
+main{
+    margin-top: 30px;
+}
+main .contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+/*comentarios de los videos de monos chinos*/
+.contenedor-comentarios{
+    margin-top:30px;
+    width: 100%;
+    
+    
+}
+.fb-comments{
+    background: red;
+    justify-content: center;
+    padding-left: 250px;
+    width: 100%;
+
+    
+    
+
+}

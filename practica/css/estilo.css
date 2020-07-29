@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #050505;
+  font-family: 'Inter', sans-serif;
+}
+.nav-brand {
+    width: 50px;
+    
+  }
+ 
+.carousel-item{
+    width: 100%;
+    height: 486px;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.alineacion{
+
+margin-top: 150px;
+margin-left: 10px;
+width: 100%;
+height: 400px;
+
+}
+.titulos a{
+text-decoration: none;  
+color: #111010;
+
+
+}
+@media screen and (min-width: 600px) {
+  div.titulos a{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.titulos a {
+    font-size: 20px;
+  }
+}
+
+.titulos a:hover{
+  color: 	#FF00FF;
+}
+.titulos p{
+  color:#ffffff;
+  justify-content: center;
+  
+}
+.categoria a{
+  color: #ffffff;
+  text-decoration: none;
+  padding:4px 3px;
+  background-color: black;
+  border-radius: 4px;
+}
+
+  
+/*cuando tenga esa medida el carusel el height va a tener 280 px*/
+@media(max-width:600px){
+  .carousel-inner{
+    height: 280px;
+  }
+
+
+
+
+/*contendor del video*/
+
+
+/*estrenos de los h pero son imagenes*/
+}
+.titulo h1{
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 40px;
+  
+  background:#050505
+}
+.contenedor{
+  width: 100%;
+  /*para que se centre*/
+  margin: auto;
+}
+.contenedor .texto{
+  color:white;
+ text-decoration: none;
+}
+
+img{
+  width: 100%;
+  border-radius: 5px;
+  
+  }
+.personas__columna{
+  /*exista una separacion entre las imagenes*/
+  margin: 5px;
+  padding: 3px;
+
+}
+.personas .contenedor{
+  display: grid;
+  background:  #b4b6b6 ;
+ 
+ 
+ 
+}
+
+@media(min-width:250px){
+  .personas .contenedor{
+    grid-template-columns: repeat(2,50%);
+  }
+}
+
+@media(min-width:520px){
+  .personas .contenedor{
+    grid-template-columns: repeat(3,33.33%);
+  }
+}
+@media(min-width:728xp){
+  .personas .contenedor{
+    grid-template-columns: repeat(4,25%);
+  }
+}
+
+@media(min-width:1024px){
+  .personas .contenedor{
+    grid-template-columns: repeat(5,20%);
+  }
+  .contenedor{
+    width: 1024;
+  }
+}
+@media(min-width:1400px){
+  .contenedor{
+    width: 1400px;
+  }
+  }
+
